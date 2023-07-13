@@ -1,0 +1,143 @@
+.header-news {
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+  background: url("/img/Rectangle 26-news.svg") center no-repeat;
+  background-size: cover; }
+
+.header-news__body {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0px 40px 0px; }
+
+.header-news__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 140%;
+  text-align: center;
+  color: white; }
+
+.main-news__body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 80px 0px 120px 0px;
+  gap: 24px; }
+
+@media (max-width: 891px) {
+  .main-news__body {
+    justify-content: center; } }
+.main-news__column {
+  border: solid 1px #F7ECE1; }
+
+.main-news__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 416px;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+  padding: 30px 40px; }
+
+@media (max-width: 600px) {
+  .main-news__item {
+    max-width: 100%;
+    align-items: center; }
+
+  .main-news__button {
+    width: 50%;
+    justify-content: center; }
+
+  .main-news__body {
+    text-align: center; } }
+.main-news__img img {
+  max-width: 336px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+@media (max-width: 600px) {
+  .main-news__img img {
+    max-width: 100%;
+    width: 80vw; } }
+@media (max-width: 430px) {
+  .main-news__img img {
+    max-width: 100vw;
+    width: 90vw; } }
+.main-news__time {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #333333; }
+
+.main-news__text {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 140%;
+  color: #333333; }
+
+@media (max-width: 450px) {
+  .main-news__text {
+    font-size: 5.5vw; }
+
+  .main-news__button {
+    width: 100%; } }
+.main-news__button {
+  display: flex;
+  background: #8D86C9;
+  padding: 10px 20px; }
+  .main-news__button a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: white; }
+
+.footer {
+  background: #F7ECE1; }
+
+.footer__body {
+  display: flex;
+  align-items: center;
+  padding: 38px 0px; }
+
+@media (max-width: 1070px) {
+  .footer__body {
+    flex-direction: column; }
+
+  .footer__list {
+    flex-wrap: wrap;
+    justify-content: center; } }
+.footer__defense {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #333333;
+  opacity: 0.3;
+  flex: 1 1 104px; }
+
+@media (max-width: 1070px) {
+  .footer__defense {
+    flex: 1 1 65px; } }
+.footer__list {
+  display: flex;
+  gap: 40px; }
+
+@media (max-width: 501px) {
+  .footer__list {
+    gap: 20px; } }
+.footer__item a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  color: #333333; }
+
+.footer__icon {
+  display: flex;
+  flex: 1 1 110px;
+  gap: 25px;
+  justify-content: flex-end; }
+
+/*# sourceMappingURL=Tennis-news.css.map */
